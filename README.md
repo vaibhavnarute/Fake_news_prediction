@@ -11,27 +11,27 @@ The dataset used for this project contains news articles labeled as either real 
 
  Steps Involved
 
-# Data Preprocessing
+## Data Preprocessing
 
 Load the dataset into a pandas DataFrame.
 Handle missing values by replacing them with empty strings.
 Merge the author and title columns to create a new content column.
 Clean the text data by removing non-alphabetic characters and applying stemming.
 
-# Feature Extraction
+## Feature Extraction
 
 Convert the cleaned textual data into numerical format using TF-IDF Vectorization.
 
-# Model Training
+## Model Training
 
 Split the dataset into training and test sets (80/20).
 Train a Logistic Regression model on the training data.
 
-# Evaluation
+## Evaluation
 
 Evaluate the model's performance using accuracy scores and a classification report, which includes precision, recall, and F1-score.
 
-# Conclusion
+## Conclusion
 This project showcases the application of machine learning in identifying fake news articles, contributing to the fight against misinformation in the digital age.
 
 Feel free to fork the repository, contribute, or reach out for collaboration!
@@ -43,6 +43,12 @@ Feel free to fork the repository, contribute, or reach out for collaboration!
 - `re`
 - `nltk`
 - `sklearn`
+
+  
+
+![fake news prediction](https://github.com/user-attachments/assets/8df2bbc4-0787-46b0-befd-3ad1953e57df)
+
+Model Performance Overview
 
 You can install the necessary libraries using pip:
 
