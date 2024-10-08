@@ -46,9 +46,12 @@ Feel free to fork the repository, contribute, or reach out for collaboration!
 
   
 
+
+## Model Results Snapshot
+
 ![fake news prediction](https://github.com/user-attachments/assets/8df2bbc4-0787-46b0-befd-3ad1953e57df)
 
-Model Performance Overview
+
 
 You can install the necessary libraries using pip:
 
